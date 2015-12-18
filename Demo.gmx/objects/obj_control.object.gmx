@@ -37,6 +37,7 @@ view_object=obj_player
 view_xport=0
 view_yport=0
 paused=false
+audio_play_sound(sound0,10,true)
 </string>
           </argument>
         </arguments>
