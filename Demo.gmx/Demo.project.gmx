@@ -62,6 +62,7 @@
     <object>objects\obj_bubble</object>
     <object>objects\obj_basiccrab</object>
     <object>objects\obj_enemy</object>
+    <object>objects\obj_door</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_town</room>
