@@ -72,7 +72,6 @@ targetdetected=false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Hello fellow Zale</string>
             <string>//Hello fellow Liam</string>
           </argument>
         </arguments>

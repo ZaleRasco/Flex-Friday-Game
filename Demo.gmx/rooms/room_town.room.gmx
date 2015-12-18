@@ -78,6 +78,70 @@
     <instance objName="obj_wall" x="608" y="272" name="inst_9CA916FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="624" y="272" name="inst_78332842" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="640" y="272" name="inst_AB3BA819" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="96" y="256" name="inst_FA5C2D58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="96" y="208" name="inst_0813818E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="144" y="208" name="inst_48575D97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="176" y="144" name="inst_516D0C26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="112" y="128" name="inst_11E1A2A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="112" y="160" name="inst_AC454F59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="144" y="128" name="inst_85755181" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="144" y="160" name="inst_C4D406E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="160" y="160" name="inst_178FC729" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="176" y="208" name="inst_58B75259" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="112" y="224" name="inst_9637BB38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="160" y="240" name="inst_069A499E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="96" y="272" name="inst_95232B38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="64" y="240" name="inst_D63686E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="48" y="208" name="inst_04CB1A80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="64" y="176" name="inst_DFE74357" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="80" y="144" name="inst_90E2A093" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="64" y="128" name="inst_BF797018" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="96" y="80" name="inst_A19738D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="128" y="96" name="inst_F1E63EE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="160" y="96" name="inst_56069D0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="176" y="112" name="inst_C631FFA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="192" y="128" name="inst_037EAE30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="208" y="144" name="inst_F1F2D755" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="208" y="160" name="inst_8C98B1A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="192" y="160" name="inst_F7E22A3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="160" y="176" name="inst_F1207F89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="112" y="208" name="inst_4EFC7091" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="112" y="192" name="inst_F2A537FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="96" y="176" name="inst_A6FCF21F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="96" y="176" name="inst_262D71F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="96" y="176" name="inst_F1FFF79E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="64" y="144" name="inst_3201D22C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="16" y="128" name="inst_A1C8BC27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="16" y="80" name="inst_073FBA02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="48" y="80" name="inst_2F64F127" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="48" y="96" name="inst_0A7EC203" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="128" y="64" name="inst_D8EBBDD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="80" y="96" name="inst_37ADDEE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="80" y="112" name="inst_BDDF7CDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="32" y="144" name="inst_168F7599" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="32" y="112" name="inst_334FF95F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="16" y="96" name="inst_DA3EEAEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="32" y="160" name="inst_AF27FA06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="64" y="160" name="inst_231C7A00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="16" y="192" name="inst_AB3C7F74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="32" y="224" name="inst_8A7BBA8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="48" y="256" name="inst_F6BFCBD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="64" y="272" name="inst_923EA227" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="64" y="288" name="inst_F32E5DBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="96" y="304" name="inst_78D32700" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="128" y="272" name="inst_C8451AC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="112" y="240" name="inst_D2645DCD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="144" y="224" name="inst_4D70724E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="80" y="224" name="inst_19C1D8B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="64" y="192" name="inst_0B69DF38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="192" y="176" name="inst_A6230211" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="208" y="208" name="inst_E4EE1F48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="208" y="224" name="inst_67F1C9C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="160" y="240" name="inst_45F3AD95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="176" y="256" name="inst_49140A79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="160" y="272" name="inst_41DA6FD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="128" y="288" name="inst_BED4AFF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_basiccrab" x="176" y="272" name="inst_F7D78143" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
