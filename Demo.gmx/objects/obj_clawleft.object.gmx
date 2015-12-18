@@ -35,7 +35,7 @@ y=resty
 moving=false
 ready=true
 attackcd=60
-dmg=25
+dmg=5
 </string>
           </argument>
         </arguments>
@@ -104,6 +104,10 @@ dmg=25
     {
         obj_player.currenthp -= dmg 
     }
+if (place_meeting(x,y,obj_player))
+{
+pdamage[0]+=dmg
+}
 </string>
           </argument>
         </arguments>

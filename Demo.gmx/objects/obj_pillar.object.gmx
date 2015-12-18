@@ -52,9 +52,9 @@
 {
 hits+=1
 }
-if hits==3
+if hits==4
 {
-obj_crabboss.mymaxhp-=20
+obj_crabboss.mycurrenthp-=20
 instance_destroy()
 }
 </string>

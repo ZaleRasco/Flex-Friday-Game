@@ -31,7 +31,6 @@
     <path>paths\path0</path>
   </paths>
   <scripts name="scripts">
-    <script>scripts\enemy_array.gml</script>
     <script>scripts\scr_viewset.gml</script>
   </scripts>
   <objects name="objects">
@@ -44,6 +43,7 @@
       <object>objects\obj_clawleft</object>
       <object>objects\obj_bubble</object>
       <object>objects\obj_pillar</object>
+      <object>objects\obj_bubblepop</object>
     </objects>
     <objects name="group_player">
       <object>objects\obj_player</object>

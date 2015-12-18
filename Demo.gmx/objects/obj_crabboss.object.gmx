@@ -59,6 +59,19 @@ if (tick&gt;=30)
 instance_create(x,y+80,obj_bubble)
 tick=0
 }
+
+if (mycurrenthp &lt;=0)
+{
+with(obj_clawright)
+{
+instance_destroy()
+}
+with(obj_clawleft)
+{
+instance_destroy()
+}
+instance_destroy()
+}
 </string>
           </argument>
         </arguments>

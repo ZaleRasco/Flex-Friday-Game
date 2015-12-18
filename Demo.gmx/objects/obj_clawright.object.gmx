@@ -35,7 +35,7 @@ attack=false
 ready=true
 tick=0
 attackcd=60
-dmg=25
+dmg=5
 </string>
           </argument>
         </arguments>
@@ -58,7 +58,8 @@ dmg=25
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (attackcd&gt;0)
+            <string>///Cycle
+if (attackcd&gt;0)
 {
 attackcd-=1
 }
@@ -99,6 +100,10 @@ if(attack=false)
         move_towards_point(restx,resty,8)
     }
     }
+if (place_meeting(x,y,obj_player))
+{
+pdamage[0]+=dmg
+}
 </string>
           </argument>
         </arguments>

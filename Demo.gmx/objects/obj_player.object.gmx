@@ -72,7 +72,24 @@ firewait=0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (iframe&gt;0)
+            <string>if (iframe&lt;=0)
+{
+currenthp -=pdamage[0]
+currenthp -=pdamage[1]
+currenthp -=pdamage[2]
+currenthp -=pdamage[3]
+currenthp -=pdamage[4]
+currenthp -=pdamage[5]
+pdamage[0] = 0
+pdamage[1] = 0
+pdamage[2] = 0
+pdamage[3] = 0
+pdamage[4] = 0
+pdamage[5] = 0
+
+}
+
+if (iframe&gt;0)
 {
 iframe-=1
 }
@@ -80,6 +97,8 @@ if (oldhp&gt;currenthp)
 {
 iframe=iframelength
 }
+
+
 </string>
           </argument>
         </arguments>
