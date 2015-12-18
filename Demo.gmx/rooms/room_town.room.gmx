@@ -142,6 +142,7 @@
     <instance objName="obj_basiccrab" x="160" y="272" name="inst_41DA6FD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_basiccrab" x="128" y="288" name="inst_BED4AFF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_basiccrab" x="176" y="272" name="inst_F7D78143" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="608" y="256" name="inst_C6A74FA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
