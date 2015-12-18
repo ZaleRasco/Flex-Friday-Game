@@ -4,6 +4,12 @@ if (distarget <= detectionradias) {
 }
 if targetdetected==true {
 pointdir = point_direction(x,y,target.x,target.y)
-motion_set(pointdir,crabspeed)
+
 }
-move_contact_solid(pointdir,crabspeed)
+
+inst = instance_place(x,y,obj_basiccrab)
+if (inst != noone)
+{
+    pointdir = point_direction(inst.x,inst.y,x,y)
+}
+motion_set(pointdir,crabspeed)

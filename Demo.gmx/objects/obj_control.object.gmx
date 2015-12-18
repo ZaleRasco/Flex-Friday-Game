@@ -138,7 +138,7 @@ draw_healthbar(886, 672, 918, 544, obj_player.manapercent, c_black, c_aqua, c_bl
 
 if (global.gameover=true)
 {
-draw_text(view_wview[0]/2,view_hview[0]/2,'Game Over')
+draw_text(view_wview[0]/2,view_hview[0]/2,'Game Ober')
 }
 </string>
           </argument>

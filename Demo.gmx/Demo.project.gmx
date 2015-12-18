@@ -25,6 +25,7 @@
       <sprite>sprites\spr_crab</sprite>
     </sprites>
     <sprite>sprites\spr_door</sprite>
+    <sprite>sprites\spr_basiccrab</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_ground</background>
@@ -49,7 +50,6 @@
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
-    <object>objects\obj_gun</object>
     <object>objects\obj_bullet</object>
     <object>objects\obj_control</object>
     <object>objects\obj_cursor</object>
