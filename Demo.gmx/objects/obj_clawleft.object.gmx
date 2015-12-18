@@ -58,7 +58,52 @@ dmg=25
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ai_clawleft(id)
+            <string>  if (attackcd &gt; 0)
+    {
+        attackcd -= 1
+    }
+    if (ready = true &amp;&amp; attackcd &lt;= 0)
+    {
+        attackx = obj_player.x
+        attacky = obj_player.y
+
+        pointdir = point_direction(x, y, attackx, attacky);
+        image_angle = pointdir + 90;
+        moving = true
+        ready = false
+    }
+
+    if (moving = true)
+    {
+        if (distance_to_point(attackx, attacky) &lt;= 5 || (place_meeting(x, y, obj_wall)))
+        {
+            moving = false
+        }
+        else
+        {
+            move_towards_point(attackx, attacky, 8)
+        }
+    }
+
+    if (moving = false)
+    {
+        if ((distance_to_point(restx, resty) &lt;= 5) &amp;&amp; (ready = false))
+        {
+            ready = true
+            attackcd = 60
+        }
+        else if (distance_to_point(restx, resty) &gt; 5)
+        {
+            pointdir = point_direction(x, y, attackx, attacky);
+            image_angle = pointdir + 90;
+            move_towards_point(restx, resty, 5)
+        }
+    }
+
+    if (place_meeting(x, y, obj_player) &amp;&amp; obj_player.iframe &lt;= 0)
+    {
+        obj_player.currenthp -= dmg 
+    }
 </string>
           </argument>
         </arguments>

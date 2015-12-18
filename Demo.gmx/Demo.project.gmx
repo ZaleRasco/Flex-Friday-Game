@@ -6,11 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_playerhead</sprite>
-    <sprite>sprites\spr_enemynecro</sprite>
-    <sprite>sprites\spr_gun</sprite>
     <sprite>sprites\spr_bullet</sprite>
-    <sprite>sprites\spr_gameover</sprite>
     <sprite>sprites\spr_crosshair</sprite>
     <sprite>sprites\spr_playerright</sprite>
     <sprite>sprites\spr_playerleft</sprite>
@@ -26,6 +22,7 @@
     </sprites>
     <sprite>sprites\spr_door</sprite>
     <sprite>sprites\spr_basiccrab</sprite>
+    <sprite>sprites\spr_control</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_ground</background>
@@ -35,34 +32,25 @@
   </paths>
   <scripts name="scripts">
     <script>scripts\enemy_array.gml</script>
-    <scripts name="ai_scripts">
-      <script>scripts\ai_playerbullet.gml</script>
-      <scripts name="ai_basiccrab">
-        <script>scripts\ai_basiccrab.gml</script>
-      </scripts>
-      <scripts name="ai_bosscrab">
-        <script>scripts\ai_crabboss.gml</script>
-        <script>scripts\ai_clawleft.gml</script>
-        <script>scripts\ai_clawright.gml</script>
-      </scripts>
-    </scripts>
     <script>scripts\scr_viewset.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_player</object>
-    <object>objects\obj_bullet</object>
-    <object>objects\obj_control</object>
-    <object>objects\obj_cursor</object>
     <object>objects\obj_wall</object>
-    <object>objects\obj_crabboss</object>
-    <object>objects\obj_clawleft</object>
-    <object>objects\obj_clawright</object>
-    <object>objects\obj_pillar</object>
-    <object>objects\obj_gameover</object>
-    <object>objects\obj_bubble</object>
     <object>objects\obj_basiccrab</object>
-    <object>objects\obj_enemy</object>
     <object>objects\obj_door</object>
+    <objects name="group_crabboss">
+      <object>objects\obj_crabboss</object>
+      <object>objects\obj_clawright</object>
+      <object>objects\obj_clawleft</object>
+      <object>objects\obj_bubble</object>
+      <object>objects\obj_pillar</object>
+    </objects>
+    <objects name="group_player">
+      <object>objects\obj_player</object>
+      <object>objects\obj_bullet</object>
+      <object>objects\obj_control</object>
+      <object>objects\obj_cursor</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_town</room>

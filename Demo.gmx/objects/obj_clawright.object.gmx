@@ -58,7 +58,47 @@ dmg=25
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ai_clawright(id)
+            <string>if (attackcd&gt;0)
+{
+attackcd-=1
+}
+if (ready=true&amp;&amp;attackcd&lt;=0)
+{
+attackx=obj_player.x
+attacky=obj_player.y
+
+pointdir = point_direction(x, y, attackx, attacky);
+image_angle = pointdir+90;
+attack=true
+ready=false
+}
+
+if(attack=true)
+{
+    if(distance_to_point(attackx,attacky)&lt;=1||(place_meeting(x,y,obj_wall)))
+    {
+        attack=false
+    }
+    else
+    {
+        move_towards_point(attackx,attacky,8)
+    }
+}
+
+if(attack=false)
+{
+    if((distance_to_point(restx,resty)&lt;=1)&amp;&amp;(ready=false))
+    {
+        ready=true
+        attackcd=60
+    }
+    else if(distance_to_point(restx,resty)&gt;1)
+    {
+        pointdir = point_direction(x, y, attackx, attacky);
+        image_angle = pointdir+90;
+        move_towards_point(restx,resty,8)
+    }
+    }
 </string>
           </argument>
         </arguments>
