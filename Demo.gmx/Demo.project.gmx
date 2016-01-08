@@ -34,6 +34,7 @@
   </paths>
   <scripts name="scripts">
     <script>scripts\scr_viewset.gml</script>
+    <script>scripts\scr_inrad.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_wall</object>
